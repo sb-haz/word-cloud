@@ -8,22 +8,22 @@ text = open('batman.txt', 'r', encoding='utf-8').read()
 stopwords = STOPWORDS
 
 # Mask
-custom_mask = np.array(Image.open('batman.png'))
+custom_mask = np.array(Image.open('elon_musk.png'))
 
 # WordCloud attributes
 wc = WordCloud(
     mask = custom_mask,
     background_color = 'white',
     stopwords = stopwords,
-    height = 1000,
-    width = 1000
+    height = 400,
+    width = 400
 )
 # Generate
 wc.generate(text)
 
 # Use colour of mask image
-image_colours = ImageColorGenerator(custom_mask)
-wc.recolor(color_func = image_colours)
+##image_colours = ImageColorGenerator(custom_mask)
+##wc.recolor(color_func = image_colours)
 
 # Store to file
 wc.to_file('batman_output.png')

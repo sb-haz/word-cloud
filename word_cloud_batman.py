@@ -13,7 +13,7 @@ custom_mask = np.array(Image.open('twitter_logo.png'))
 # WordCloud attributes
 wc = WordCloud(
     mask = custom_mask,
-    background_color = 'white',
+    background_color = 'black',
     stopwords = stopwords,
     height = 1000,
     width = 1000

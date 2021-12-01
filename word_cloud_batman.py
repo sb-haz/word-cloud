@@ -1,5 +1,6 @@
 # Imports 
-from wordcloud import WordCloud, STOPWORDS
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+import matplotlib.pyplot as plt
 import sys, os
 os.chdir(sys.path[0])
 

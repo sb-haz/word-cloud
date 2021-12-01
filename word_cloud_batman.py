@@ -12,18 +12,24 @@ custom_mask = np.array(Image.open('twitter_logo.png'))
 
 # WordCloud attributes
 wc = WordCloud(
+    font_path = 'SFProDisplay-Light.ttf',
+    #margin = 10,
     mask = custom_mask,
     background_color = 'black',
+    #background_color = None,
+    #mode = 'RGBA',
     stopwords = stopwords,
     height = 1000,
-    width = 1000
+    width = 1000,
+    include_numbers = True,
+    #color_func=lambda *args, **kwargs: (255,255,255) #red text
 )
 # Generate
 wc.generate(text)
 
 # Use colour of mask image
-##image_colours = ImageColorGenerator(custom_mask)
-##wc.recolor(color_func = image_colours)
+## image_colours = ImageColorGenerator(custom_mask)
+## wc.recolor(color_func = image_colours)
 
 # Store to file
 wc.to_file('batman_output.png')

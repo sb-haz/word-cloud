@@ -7,9 +7,10 @@ import numpy as np # get colour of image
 text = open('batman.txt', 'r', encoding='utf-8').read()
 stopwords = STOPWORDS
 
-# Appearance-related
+# Mask
 custom_mask = np.array(Image.open('batman.png'))
 
+# WordCloud attributes
 wc = WordCloud(
     mask = custom_mask,
     background_color = 'white',
@@ -19,6 +20,10 @@ wc = WordCloud(
 )
 # Generate
 wc.generate(text)
+
+# Use colour of mask image
+image_colours = ImageColorGenerator(custom_mask)
+wc.recolor(color_func = image_colours)
 
 # Store to file
 wc.to_file('batman_output.png')

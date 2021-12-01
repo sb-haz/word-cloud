@@ -1,23 +1,21 @@
 # Imports 
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-import matplotlib.pyplot as plt
-import sys, os
-os.chdir(sys.path[0])
+from PIL import Image # load image
+import matplotlib.pyplot as plt # display wordcloud
+import numpy as np # get colour of image
 
-# Read text
-text = open('text.txt', mode='r', encoding='utf-8').read()
-stopwords = STOPWORDS
+# Content-related
+text = open('batman.txt', 'r', encoding='utf-8').read()
 
-# WordCloud
+# Appearance-related
 wc = WordCloud(
     background_color = 'white',
-    stopwords = stopwords,
-    height = 1000,
-    width = 1000
+    
 )
-
 # Generate
 wc.generate(text)
- 
-# Store to file
-wc.to_file('output.png')
+
+# Display
+plt.imshow(wc, interpolation = 'bilinear')
+plt.axis('off')
+plt.show()

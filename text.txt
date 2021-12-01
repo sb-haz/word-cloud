@@ -1,0 +1,96 @@
+This is the statement of which I personally agree with, there is a similar quote which was from 
+Boersma, regardless of the methodology, they are both correct, but it would be the strengths and 
+the weaknesses of both which would point out which methodology is more suited towards your 
+project, regardless of which you chose, they are both suitable, the real question is which would be 
+more efficient and malleable towards your project, I personally believe that the requirements of the 
+project are what determine which methodology should be in place.
+
+
+
+PRINCE2 was selected to be the standard methodology for use within the Suffolk County Council 
+projects, but due to unforeseen circumstances. which would be known as the case of lack of training 
+for use of the methodology, only the project manager was compatible with the methodology, staff 
+lacked, inexperienced staff were struggling to use the methodology, saying comments such as the 
+methodology is too “process based”,
+
+
+therefore it was adapted by the Suffolk County Council for it to 
+be more efficient and suited to the members of staff’s understanding and it is known to be useful 
+considering that it is known to be far less technically based, it is also known to be more flexible yet 
+less prescriptive in comparison to the original 2009 PRINCE2, finally It provides much better insight 
+into how the methodology sits alongside other methodologies and corporate systems, and lastly, It 
+provides much better guidance for project board members and senior stakeholders (in particular the
+‘Directing Projects’ publication).
+
+
+
+
+The Suffolk County Council received praises for adapting PRINCE2 to the needs and understandings 
+of the staff, which made compatibility of staff with projects rise and the efficiency to be increased by 
+large increments.
+ 
+Taking this information into consideration, I wouldn’t necessarily consider PRINCE2 to be the best of
+methodologies, this would be since it was said to have been too “process based” and it was far too 
+technical for the untrained staff, there was no simplicity within the methodology, the project was 
+not able to be carried out due to the fact that the complexity of PRINCE2 was too high for the client 
+who used the methodology to understand and be able to apply the methodology to their projects 
+until it was adapted into a simpler version which was crafted by the company, of which they decided 
+to name “PRINCESS”.
+I would also support my choice since PRINCE2 is not known for the use of projects within the 
+category of games design.
+Waterfall is known to be used less, but it is known to be used for projects which are small scaled, this 
+would include the art work creations through teams mentioned Johan Oldbring, he is known to have 
+written the article of project management in games development, he is an Art producer which is 
+known to also be the author of the article I am referring to, Johan says that the scenes are created 
+through the work of several teams combined, which shows that the company was known to be using 
+the waterfall methodology in order to create their scene, as he mentions, “Character Art and 
+Animation create the characters and make them move”, which would be known to be the first team, 
+he then says “Level Design decide the layout and script the events”, which implies that would be the 
+secondary team, and as you can see within his embedded portrayal, he continues to lists the tasks 
+being assigned to teams and the roles of which need to be completed in order to patch all of the 
+tasks together to create the scenery with the “music, effects, and ambience” from the Audio team, 
+“engine the game runs on” which is from the tech team, without these teams the scenery would not 
+be possible to lay.
+This shows that waterfall is known to be successful for small projects which have a variety of steps, 
+this is because the workload is known to be split between a variety of teams which specialise within 
+the work that would be assigned to them, such as ““music, effects, and ambience” from the Audio 
+team, which would be a specialty to the audio team, therefore the workload would responsibly be 
+split between the teams to the team that would perform optimally within the performance of the 
+task, then all tasks are formed together to make a scene or product.
+With this information, I would like to say that I believe that waterfall is a good methodology for the 
+project of which was carried out, this is due to the teams being assigned tasks of which they could 
+efficiently work with, such as technical tasks being passed to technical teams, such as audio etc 
+being assigned to the audio team, level design teams designing the layout, I believe it was an 
+accurately selected methodology with little to none constraints, considering that all tasks were 
+carried out smoothly and with ease and the scene was set easily and swiftly. Which defines the 
+methodology as a methodology which is known for efficiency, understanding process and simplicity.
+The agile methodology is known to be used for creating the gameplay aspects of games, this is 
+proven through the quote “A gameplay feature, like the one seen in the videoclip below, on the other 
+hand, can be developed in a more iterative way with members of different teams working together in 
+a cell or a strike team. The teams then create a prototype, which is continuously tested and improved 
+to ensure it’s both fun and balanced. The actual art assets, together with sound and other key 
+ingredients, are created by other teams in parallel.” This quote contains hints of key words and 
+phrases which refer to the methodology of agile, this would be inclusive of words such as “iterative”, 
+“strike team” and lastly “teams in parallel”, these words all refer to the methodology of agile, which 
+shows hinting of the fact that agile was the methodology in use for the project of creating the gameplay features, as strike teams could also be referred to as sprint teams, and the fact that it says 
+ensure its fun and balanced implies that the methodology is a simple, understandable, low 
+technicality methodology which is used for the features within game.
+Knowing this information, I believe that the methodology known as agile is known to suit the 
+scenario/requirements of the project which was at hand, this would be due for the methodology not 
+requiring any adjustments within the steps or processes of the methodology, the project was also a 
+success as there were no implications or constraints within the case study, it was a easy 
+methodology for the teams to apply and there were no complexities whilst applying the 
+methodology to the project at hand, the methodology met the requirements and has suited the 
+scenario. The compliancy between the staff and the methodology was of good standard and there 
+were no issues within application.
+ 
+ 
+To conclude, I would like to say there has been a lot of discussion about which of the three is the 
+best project management methodology. In my opinion I believe it is known to be all the 
+methodologies I have spoken about, this would be due to the fact that all three methodologies are 
+known to be as effective as each other, but with each methodology comes their benefits and 
+limitations, such as the fact that PRINCE2 not being used for game design projects, waterfall having a 
+potentially uncapped cost, and finally that agile which allows project owners to edit their scope 
+which may affect the timescales and costs of the project, it is all based around the scenario and the 
+requirements of the project which determines which methodology would be suitable for use for a 
+project

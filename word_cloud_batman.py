@@ -1,7 +1,6 @@
 # Imports 
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 from PIL import Image # load image
-import matplotlib.pyplot as plt # display wordcloud
 import numpy as np # get colour of image
 
 # Content-related
@@ -15,7 +14,5 @@ wc = WordCloud(
 # Generate
 wc.generate(text)
 
-# Display
-plt.imshow(wc, interpolation = 'bilinear')
-plt.axis('off')
-plt.show()
+# Store to file
+wc.to_file('output.png')

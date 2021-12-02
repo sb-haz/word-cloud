@@ -8,7 +8,7 @@ text = open('batman.txt', 'r', encoding='utf-8').read()
 stopwords = STOPWORDS
 
 # Mask
-custom_mask = np.array(Image.open('twitter_logo.png'))
+custom_mask = np.array(Image.open('batman.png'))
 
 # WordCloud attributes
 wc = WordCloud(
@@ -21,8 +21,8 @@ wc = WordCloud(
     stopwords = stopwords,
     height = 1000,
     width = 1000,
-    include_numbers = True,
-    #color_func=lambda *args, **kwargs: (255,255,255) #red text
+    include_numbers = False, # include numbers
+    #color_func=lambda *args, **kwargs: (255,255,255) # text colour
 )
 # Generate
 wc.generate(text)

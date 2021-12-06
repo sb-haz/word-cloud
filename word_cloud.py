@@ -4,11 +4,11 @@ from PIL import Image # load image
 import numpy as np # get colour of image
 
 # Content-related
-text = open('Text\\ftv.txt', 'r', encoding='utf-8').read()
+text = open('Text\\text.txt', 'r', encoding='utf-8').read()
 stopwords = STOPWORDS
 
 # Mask
-custom_mask = np.array(Image.open('Masks\\twitter_logo.png'))
+custom_mask = np.array(Image.open('Masks\\batman.png'))
 
 # WordCloud attributes
 wc = WordCloud(
@@ -32,4 +32,4 @@ wc.generate(text)
 ## wc.recolor(color_func = image_colours)
 
 # Store to file
-wc.to_file('Output\\ftv.png')
+wc.to_file('Output\\batman.png')
